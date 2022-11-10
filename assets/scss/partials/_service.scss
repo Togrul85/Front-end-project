@@ -1,0 +1,76 @@
+.row {
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+    .features-small-item {
+        display: block;
+        background: #FFFFFF;
+        border-radius: 5px;
+        padding: 30px;
+        text-align: center;
+        // transition: all 0.3s ease 0s;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 30px;
+        text-decoration: none;
+        box-shadow: 0 2px 48px 0 rgba(21, 7, 7, 0.08);
+        // content: "";
+        // content: "\f105";
+        &:hover{
+            background-color:rgb(55, 55, 152);
+        }
+        box-sizing: border-box;
+        .icon {
+            width: 77px;
+            height: 97px;
+            line-height: 70px;
+            margin: auto;
+            position: relative;
+            margin-bottom: 20px;
+            background: #F7FAFD;
+            // -webkit-border-radius: 100%;
+            // -moz-border-radius: 100%;
+            border-radius: 100%;
+            // box-sizing: border-box;
+            // content: "";
+            content: "\f105";
+
+
+            
+    // &:hover{
+    //     color: #3B566E;
+    // }
+        }
+    }
+
+    .cloud-icon {
+        font-weight: 400;
+        font-size: 16px;
+        // color: #3B566E;
+        // letter-spacing: 0.7px;
+        // margin-bottom: 15px;
+        position: relative;
+        z-index: 2;
+        line-height: 26px;
+        // color: #6F8BA4;
+        // text-decoration: none;
+        // box-sizing: border-box;
+        color: black;
+        // content: "\f105";
+       
+
+      
+
+
+    }
+    p{
+        color: black;
+    }
+
+    
+
+    
+    
+
+}
