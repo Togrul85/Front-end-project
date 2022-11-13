@@ -860,7 +860,7 @@
   overflow: hidden;
   margin-bottom: 30px;
   background: white;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(33, 33, 114, 0.2) 0px 7px 29px 0px;
 }
 #plans .item .pricing-header {
   display: block;
@@ -948,5 +948,85 @@
 }
 
 footer {
-  background-color: blue;
+  background-color: rgb(84, 84, 236);
+  text-decoration: none;
+}
+
+.section.colored {
+  background: #F7FAFD;
+}
+@media (min-width: 1200px) {
+  .section.colored .container {
+    max-width: 1140px;
+  }
+  .section.colored .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px col-lg-12;
+    margin-left-flex: 0 0 100%;
+    margin-left-max-width: 100%;
+  }
+  .section.colored .row .center-heading {
+    text-align: center;
+  }
+  .section.colored .row .center-heading .section-title {
+    font-weight: 400;
+    font-size: 28px;
+    color: #3B566E;
+    letter-spacing: 1.75px;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .offset-lg-3 {
+    margin-left: 25%;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .pricing-item {
+    background: #FFFFFF;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .pricing-item .pricing-header {
+    border-bottom: 1px solid #F7FAFD;
+    text-align: center;
+    height: 130px;
+    display: block;
+    position: relative;
+  }
+  .pricing-item .pricing-header pricing-body {
+    margin-bottom: 40px;
+  }
+  .pricing-item .pricing-header pricing-body .number {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    background: #F7FAFD;
+    position: relative;
+    margin: auto;
+    margin-top: -20px;
+    text-align: center;
+    border-radius: 100%;
+  }
+  .pricing-item .pricing-header pricing-body .number span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #585CE9;
+    display: block;
+  }
+  .pricing-item .pricing-header pricing-body .number .pricing-item .pricing-body .price-wrapper {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
 }

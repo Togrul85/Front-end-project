@@ -109,7 +109,7 @@
                 height: 40px;
                 line-height: 40px;
                 
-                -o-transition: all 0.3s ease 0s;
+              
                 transition: all 0.3s ease 0s;
                 position: relative;
                 font-size: 13px;
@@ -177,9 +177,7 @@
 
 .menu-trigger span:before,
 .menu-trigger span:after {
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    -webkit-transition: all 0.4s;
+    
     transition: all 0.4s;
     background-color: #3B566E;
     display: block;
@@ -222,9 +220,7 @@
 }
 
 .menu-trigger.active span:before {
-    -moz-transform: translateY(6px) translateX(1px) rotate(45deg);
-    -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
-    -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
+   
     transform: translateY(6px) translateX(1px) rotate(45deg);
     background-color: #3B566E;
 }
